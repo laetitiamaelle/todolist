@@ -10,7 +10,7 @@ let compteur = 1
 
 const message = document.createElement('div')
 message.textContent = " AUCUNE TACHE "
-message.classList.add('text-center', 'text-muted', 'mt-4', 'fw-bold');
+message.classList.add('text-center', 'text-danger', 'mt-4', 'fw-bold');
 
 function verifierListeVide(){
   if(todos.length===0){
@@ -174,5 +174,3 @@ bouton.forEach((button) => {
 //   input.value = ""
 
 // })
-
-
